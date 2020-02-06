@@ -11,7 +11,6 @@ const RoomsContainer = ({ context }: any) => {
   }
   return (
     <>
-      hello from room container
       <RoomsFilter rooms={rooms} />
       <RoomsList rooms={sortedRooms} />
     </>
